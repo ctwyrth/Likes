@@ -1,0 +1,97 @@
+/* Simple reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Primary section of page */
+.container {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 4;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.user-box img {
+    width: 60px;
+    margin: 15px 0;
+}
+
+.user-box h2 {
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.post-box {
+    border: 3px solid black;
+    padding: 15px 20px 20px 20px;
+    width: 94%;
+    margin-top: 20px;
+}
+
+.post-box-hdr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.post-box-hdr h3.title {
+    font-weight: 400;
+    font-size: 1.375rem;
+}
+
+.like-btn {
+    background-color: goldenrod;
+    border: 2px solid black;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 4px black;
+}
+
+.post-box-body {
+    margin-top: 20px;
+}
+
+.pt1, .pt21, .pt22, .pt23 {
+    color: gray;
+}

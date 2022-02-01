@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Likes</title>
+
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="navbar">
+            <h1 class="main">Network</h1>
+        </header>
+
+        <div class="main-body">
+            <div class="col1">
+                <div class="user-box">
+                    <img src="img/user-circle.png" alt="user image placeholder graphic" class="user-img">
+                    <a href="#" class="add-avatar">Add an avatar</a>
+                    <h2 class="user-name">James Doe</h2>
+                </div>
+            </div>
+
+            <div class="col2">
+                <div class="post-box">
+                    <header class="post-box-hdr">
+                        <h3 class="title">Neil M.</h3>
+        
+                        <p class="likes-count pt21">9 like(s)</p>
+        
+                        <button class="like-btn" id="pt21" onclick="addLikes(this.id)">Like</button>
+                    </header>
+                    <div class="post-box-body">
+                        <p class="post-text">I just set up this Discord bot, let me know what you think. <a href="#">link</a></p>
+                    </div>
+                </div>
+        
+                <div class="post-box">
+                    <header class="post-box-hdr">
+                        <h3 class="title">Nichole K.</h3>
+        
+                        <p class="likes-count pt22">12 like(s)</p>
+        
+                        <button class="like-btn" id="pt22" onclick="addLikes(this.id)">Like</button>
+                    </header>
+                    <div class="post-box-body">
+                        <p class="post-text">I just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+        
+                <div class="post-box">
+                    <header class="post-box-hdr">
+                        <h3 class="title">Jim R.</h3>
+        
+                        <p class="likes-count pt23">9 like(s)</p>
+        
+                        <button class="like-btn" id="pt23" onclick="addLikes(this.id)">Like</button>
+                    </header>
+                    <div class="post-box-body">
+                        <p class="post-text">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
